@@ -49,7 +49,6 @@ bool SolveSudoku(int grid[N][N]) {
 			grid[row][col] = num;
 			if (SolveSudoku(grid))
 				return true;
-			// failure, unmake & try again
 			grid[row][col] = EMPTY;
 		}
 	}
