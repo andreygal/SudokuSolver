@@ -57,8 +57,7 @@ bool SolveSudoku(int grid[N][N]) {
 }
 
 void printGrid(int grid[N][N]) {
-	for (int row = 0; row < N; row++)
-	{
+	for (int row = 0; row < N; row++) {
 		for (int col = 0; col < N; col++)
 			 std::cout << grid[row][col] << " ";
 		std::cout << std::endl; 
