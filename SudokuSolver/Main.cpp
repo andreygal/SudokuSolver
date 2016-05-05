@@ -17,6 +17,6 @@ int main()
 		printGrid(board);
 	else
 		std::cout << "No solution exists" << std::endl;
-
+	system("pause");
 	return 0;
 }
